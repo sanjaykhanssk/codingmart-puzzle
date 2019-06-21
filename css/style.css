@@ -1,0 +1,81 @@
+body {
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    position: fixed;
+}
+
+.container {
+    position: relative;
+}
+
+.movingArrow {
+    position: relative;
+    right: 227px;
+    top: 10px;
+}
+
+.arrow {
+    height: 500px;
+    width: 200px;
+    float: left;
+}
+
+#arrowObj {
+    position: relative;
+    top: 150px;
+}
+
+#bow {
+    position: relative;
+    top: 150px;
+}
+#alt{
+    margin-left:400px;
+    height: 300px;
+    width:800px;
+    border-radius: 40px;
+    background-color:rgba(255,255,255,.15);
+     
+}
+h1{
+    text-align: center;
+    color: darkgreen;
+}
+h2{
+    color:darkslategrey;
+    text-align: center;
+}
+#name{
+    color:blue;
+    font-size: 1.5em;
+
+}
+span{
+    color:blue;
+    text-decoration: underline;
+}
+.ground {
+    height: 500px;
+    width: 700px;
+}
+
+.bubble,
+.bubble1,
+.bubble2 {
+    position: absolute;
+    left: 600px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+    background-image: url('../img/bird.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pos {
+    margin-top: 100px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+}
